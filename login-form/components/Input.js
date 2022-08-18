@@ -11,4 +11,6 @@ const Input = React.forwardRef(({ type = 'text', placeholder, invalid = false, .
   />
 ))
 
+Input.displayName = 'Input'
+
 export default Input
